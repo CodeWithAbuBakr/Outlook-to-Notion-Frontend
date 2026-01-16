@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Redirect</title>
+    <!-- Immediate redirect to backend -->
+    <meta http-equiv="refresh" content="0; url=https://outlook-to-notion-backend.vercel.app/api/v1/auth/notion/start">
+</head>
+
+<body>
+    <p>Redirecting to Notion authentication... If not redirected, <a
+            href="https://outlook-to-notion-backend.vercel.app/api/v1/auth/notion/start">click here</a>.</p>
+    <script>
+        // Fallback JavaScript redirect
+        window.location.href = "https://outlook-to-notion-backend.vercel.app/api/v1/auth/notion/start";
+    </script>
+</body>
+
+</html>
