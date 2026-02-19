@@ -2,18 +2,16 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>be7a6b51-3eff-4cd7-8917-74192e1504b5</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Outlook to Notion</ProviderName>
+  <ProviderName>YUVAL GAKMAN</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Outlook to N"/>
+  <DisplayName DefaultValue="Outlook to Notion"/>
   <Description DefaultValue="Save Outlook emails and attachments directly to Notion with one click."/>
   <IconUrl DefaultValue="https://codewithabubakr.github.io/Outlook-to-Notion-Frontend/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://codewithabubakr.github.io/Outlook-to-Notion-Frontend/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://outlook-to-notion.vercel.app/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
-    <AppDomain>https://outlook-to-notion-backend.vercel.app</AppDomain>
-    <AppDomain>https://localhost:3000</AppDomain>
     <AppDomain>https://api.notion.com</AppDomain>
+    <AppDomain>https://outlook-to-notion-backend.vercel.app</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
